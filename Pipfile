@@ -11,6 +11,7 @@ pylint = "*"
 numpy = "==1.16.2"
 pandas = "==0.24.2"
 scikit-learn = "==0.21.2"
+xgboost = "*"
 
 [requires]
 python_version = "3.7"
