@@ -39,6 +39,8 @@ print(confusion_matrix1)
 #        [2, 2]])
 
 # scikit-learnのmetricsモジュールのconfusion_matrixでも作成できるが、混同行列の要素の配置が違うので注意が必要
+# [[tn fp]
+#  [fn tp]]
 confusion_matrix2 = confusion_matrix(y_true, y_pred)
 print(confusion_matrix2)
 # array([[2, 1],
